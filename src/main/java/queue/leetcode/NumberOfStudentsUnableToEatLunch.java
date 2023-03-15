@@ -67,6 +67,7 @@ public class NumberOfStudentsUnableToEatLunch {
                 sandwichQueue.pop();
                 hungryStudents = 0;
             } else {
+                hungryStudents ++;
                 studentQueue.push(studentQueue.pop());
             }
         }
