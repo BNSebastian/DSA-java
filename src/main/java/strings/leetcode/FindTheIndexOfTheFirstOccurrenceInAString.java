@@ -20,7 +20,7 @@ package strings.leetcode;
 
 public class FindTheIndexOfTheFirstOccurrenceInAString {
 
-    public int findOccurence(String haystack, String needle) {
+    public static int findOccurence(String haystack, String needle) {
         if (!haystack.contains(needle)){
             return -1;
         }
